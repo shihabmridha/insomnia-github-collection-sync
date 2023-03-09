@@ -1,0 +1,23 @@
+{
+  "name": "insomnia-plugin-github-collection-sync",
+  "version": "0.0.1",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "author": {
+    "name": "Shihab Mridha",
+    "email": "shihabmridha@gmail.com"
+  },
+  "insomnia": {
+    "name": "github-collection-sync",
+    "description": "Sync insomnia collection with github repository"
+  },
+  "dependencies": {
+    "octokit": "^2.0.14"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
